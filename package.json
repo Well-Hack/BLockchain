@@ -1,0 +1,25 @@
+{
+  "name": "blockchain",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Well-Hack/BLockchain.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Well-Hack/BLockchain/issues"
+  },
+  "homepage": "https://github.com/Well-Hack/BLockchain#readme",
+  "dependencies": {
+    "bip32": "^2.0.6",
+    "bip39": "^3.1.0",
+    "bitcoinjs-lib": "^7.0.1"
+  }
+}
