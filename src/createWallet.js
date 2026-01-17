@@ -25,7 +25,7 @@ let node = account.derive(0).derive(0)
 let btcAddress = bitcoin.payments.p2pkh({
     pubkey: node.publicKey,
     network: network, 
-}).adress
+}).address
 
 console.log("Carteira gerada")
 console.log("Endereço: ", btcAddress)
